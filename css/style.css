@@ -208,7 +208,7 @@ header {
 /* Intro section */
 
 .section__title {
-  margin-bottom: .25em;
+  margin-bottom: .5em;
 }
 
 .section__title--intro {
@@ -305,8 +305,6 @@ header {
 .portfolio {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  /* max-width: 85%;
-  margin: 0 auto; */
 }
 
 .portfolio__item {
@@ -429,7 +427,7 @@ header {
 
   .intro__img {
     grid-area: img;
-    min-width: 250px;
+    min-width: 300px;
     position: relative;
     z-index: 2;
   }
@@ -440,8 +438,8 @@ header {
     grid-row: 2;
     text-align: right;
     position: relative;
-    left: -1.5em;
-    width: calc(100% + 1.5em);
+    left: -1em;
+    width: calc(100% + 8em);
   }
 
   .service {
