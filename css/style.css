@@ -290,6 +290,8 @@ header {
 
 .about-me__img {
   box-shadow: var(--bs);
+  outline:5px solid #00424f;
+  outline-offset: 7px;
   position: relative;
   z-index: 2;
 }
@@ -434,6 +436,8 @@ header {
   .intro__img {
     grid-area: img;
     min-width: 300px;
+    outline:5px solid #00424f;
+    outline-offset: 7px;
     position: relative;
     z-index: 2;
   }
