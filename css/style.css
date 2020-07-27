@@ -14,7 +14,8 @@
 
   --clr-light: #fff;
   --clr-dark: #303030;
-  --clr-accent: #16e0bd;
+  --clr-accent: #930C82;
+  --clr-green: #00424F;
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -213,6 +214,7 @@ header {
 
 .section__title--intro {
   font-weight: var(--fw-reg);
+  color: var(--clr-green);
 }
 
 .section__title--intro strong {
@@ -223,6 +225,7 @@ header {
 .section__subtitle {
   margin: 0;
   font-size: var(--fs-h3);
+  color: var(--clr-light);
 }
 
 .section__subtitle--intro,
@@ -233,6 +236,9 @@ header {
   margin-bottom: 1em;
 }
 
+.section__title-about {
+  color: var(--clr-green);
+}
 
 .intro {
   position: relative;
@@ -291,7 +297,7 @@ header {
 /* My Work */
 
 .my-work {
-  background-color: var(--clr-dark);
+  background-color: var(--clr-green);
   color: var(--clr-light);
   text-align: center;
 }
